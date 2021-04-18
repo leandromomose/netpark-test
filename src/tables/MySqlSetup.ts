@@ -20,6 +20,8 @@ export class MySqlSetup extends BaseDatabase {
                     brand VARCHAR(255) NOT NULL,
                     model VARCHAR(255) NOT NULL,
                     price DECIMAL(10,2) NOT NULL,
+                    author_id VARCHAR(255) NOT NULL,
+                    FOREIGN KEY(author_id) REFERENCES BIKESHOP_USER(id)
                 )
             `)
 
