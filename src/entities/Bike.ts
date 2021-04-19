@@ -1,4 +1,5 @@
 export class Bike {
+    map: any
     constructor(
         private id: string,
         private color: string,
@@ -25,6 +26,22 @@ export interface BikeInputDTO {
     brand: string,
     model: string,
     price: string,
+}
+
+export interface BikeColorInputDTO {
+    token: string;
+    color: string;
+}
+
+export interface BikePriceInputDTO {
+    token: string;
+    price: string;
+}
+
+export interface BikeUpdatePriceInputDTO {
+    token: string;
+    id: string;
+    price: string;
 }
 
 export interface BikeIdInputDTO {
