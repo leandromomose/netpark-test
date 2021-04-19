@@ -19,3 +19,15 @@ Você deverá construir rotas que desempenhem as seguintes funções:
 
 Você pode utilizar um banco de dados local ou um arquivo de texto que sirva como banco de dados.
 Opcional: Publique este serviço no Heroku
+
+### Link - API documentation on Postman
+
+https://documenter.getpostman.com/view/13244880/TzJsgJb7
+
+### Link - Service published on Heroku
+
+https://bikeshop-netpark.herokuapp.com/
+
+### Link - github repositorie
+
+https://github.com/leandromomose/netpark-test
